@@ -8,25 +8,24 @@
   
   <body>
   	<h1>Mark Patrick Jaramillo</h1>
-  	 <h2>Homepage!</h2>
+  	 <h2>FizzBuzz!</h2>
      <script>
      function fizzBuzz(start, end) {
   
   for(var i = start ; i <= end; i++) {
     var count = "";
-    if (i % 3 === 0) {
+
+    if (i % 3 === 0)  {
       count += " Fizz, ";
     }
     if (i % 5 === 0) {
       count += " Buzz, ";
     }
-    if((i % 3 === 0) && (i % 5 === 0)) {
-      count += " FIZZBUZZ! ";
-    }    
+    
     document.write(count || i + ", ");
   };  
 };
-document.write(fizzBuzz(1,100));
+fizzBuzz(1,100);
 </script>
   	  <script src="jquery-1.11.2.min.js"></script>      
   	   <script src= "site_1.js"></script>
